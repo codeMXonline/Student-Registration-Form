@@ -1,0 +1,189 @@
+* {
+  background-color: rgb(250, 247, 247);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/**Styling Heading**/
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(248, 211, 211);
+  padding: 30px 20px;
+  font-size: 40px;
+  color: brown;
+}
+
+/**Styling form**/
+.main-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 70px;
+}
+
+.form-div-container {
+  line-height: 0.5;
+  border: 1.5px solid brown;
+  padding: 20px 40px;
+  border-radius: 20px;
+  position: statix;
+}
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 5px 0px;
+  color: brown;
+}
+/*Styling Input*/
+input[type="text"] {
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 500px;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+input[type="number"] {
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 500px;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+}
+input[type="email"] {
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 500px;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+}
+input[type="radio"] {
+  padding: 9px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.gender-input {
+  padding: 10px 15px;
+  margin-right: 10px;
+  color: brown;
+}
+input[type="checkbox"] {
+  padding: 9px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.skills-class {
+  padding: 5px 0px;
+  margin-right: 5px;
+  color: brown;
+}
+input[type="submit"] {
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 50%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+}
+input[type="submit"]:hover {
+  background-color: rgb(250, 247, 247);
+  color: rgb(247, 193, 193);
+}
+
+/*Right Container*/
+.right-container {
+  position: relative;
+  left: 2%;
+  line-height: 22px;
+}
+h2 {
+  color: brown;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.studentjs-details {
+  background-color: rgb(248, 211, 211);
+}
+/*Styling delete button*/
+.delete-btn {
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 50%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.delete-btn:hover {
+  background-color: rgb(250, 247, 247);
+  color: rgb(247, 193, 193);
+}
+/*styling edit button*/
+.input-submit{
+  display: flex;
+}
+button[type=reset]{
+  background-color: rgb(247, 193, 193);
+  color: white;
+  width: 50%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid white;
+ 
+}
+button[type=reset]:hover{
+   background-color: rgb(250, 247, 247);
+  color: rgb(247, 193, 193);
+}
+
+/*Styling scrolling bar*/
+.right-container {
+  width: 600px;
+  height: 400px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Custom scrollbar styles */
+.right-container::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+}
+
+.right-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track background */
+  border-radius: 10px;
+}
+
+.right-container::-webkit-scrollbar-thumb {
+  background:brown; /* Scrollbar thumb */
+  border-radius: 10px;
+}
+
+.right-container::-webkit-scrollbar-thumb:hover {
+  width:10px;
+  background-color: rgb(226, 86, 86); /* Thumb on hover */
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link Js file-->
+  <script src="index.js"></script>
+  <!--Link CSS file-->
+  <link rel="stylesheet" href="style.css">
+  <title>Student Registration Form</title>
+</head>
+<body>
+<!--Header section-->
+<header class="header-container">
+  <div class="header-div">
+  <h1>Student Registration Form
+    <br>
+    <P style="font-size: 16px;background-color: rgb(248, 211, 211);">Collecting students entries for Internshala Full Stack Development course eligibility</P>
+  </h1>
+  </div>
+</header>
+<!--Main COntainer -->
+<section class="main-container">
+<!--Container Form-->
+  <div class="left-container">
+      <form class="form-container" id="form-id">
+        <div class="form-div-container">
+        <div class="input-name" name="name">
+          <h4>Student Name:</h4>
+          <input type="text" class="student-name" name="name" value="" pattern="[A-Z a-z]+" title="Only letters allowed">
+        </div>
+
+        <div class="input-id" >
+          <h4>Student ID:</h4>
+          <input type="number" class="" name="id" >
+        </div>
+
+        <div class="input-email" >
+          <h4>Email ID:</h4>
+          <input type="email" name="email" >
+        </div>
+
+        <div class="input-contact" >
+          <h4>Contact No.:</h4>
+          <input type="number" name="contact" >
+        </div>
+
+        <div class="input-gender">
+          <h4>Gender:</h4>
+          <input type="radio" id="male" name="gender" value="male"  >
+          <label for="male" class="gender-input">Male</label>
+          <input type="radio" id="female" name="gender" value="female" >
+          <label for="female" class="gender-input">Female</label>
+        </div>
+
+        <div class="input-skills" >
+          <h4>Skills:</h4>
+          <input type="checkbox" id="Html" name="Skills">
+          <label for="Html" class="skills-class">Html</label>
+          <input type="checkbox" id="CSS" name="Skills" >
+          <label for="CSS" class="skills-class">CSS</label>
+          <input type="checkbox" id="Js" name="Skills" >
+          <label for="Js" class="skills-class">Js</label>
+          <input type="checkbox" id="Nodejs" name="Skills" >
+          <label for="Nodejs" class="skills-class">Nodejs</label>
+        </div>
+       
+        <div class="input-submit" >
+          <input type="submit" name="submit" class="submit-button" >
+              <button class="" type="reset">Edit</button>
+        </div>
+      </div>
+      </form>
+    </div>
+<!--Students details container-->
+      <div class="right-container">
+          <div class="studentjs-details">
+            <h2>Students Details</h2>
+          </div>
+          </div>
+      
+  </section>
+</body>
+</html>
