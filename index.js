@@ -99,13 +99,14 @@ const studentDetailsHtml = `
 <hr>
 </div>
 `;
-
-studentjsDetails.insertAdjacentHTML("beforeend", studentDetailsHtml);
-
-renderStudentList();
 // save to local storage
 savedStudentsDetails.push(studentDetailsHtml);
-localStorage.setItem('studentsList',JSON.stringify(savedStudentsDetails));
+localStorage.setItem('studentsList', JSON.stringify(savedStudentsDetails));
+
+
+renderStudentList();
+
+
 
 // Clear the form for next entry
     form.reset();
